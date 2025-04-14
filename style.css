@@ -1,0 +1,336 @@
+/* LIBRERIA COLORI */
+:root{
+    --main-color: rgb(6, 57, 108);
+    --secondary-color: rgb(250, 250, 250);
+}
+
+
+/* BD */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 4000px;
+}
+
+
+/* SFONDO */
+.sfondo{
+        height: 700px;
+        background:linear-gradient(rgba(6, 57, 108, 0.5),rgba(6, 57, 108, 0.5)), url(./media/header.jpg);
+        color: var(--secondary-color);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        }
+        
+        
+/* 1° TITOLO */
+#titolo-principale{
+  font-size: 70px;
+  font-weight:600;
+  font-family: "Lato";
+}
+
+
+/* BARRA NAVIGAZIONE */
+#navbar {
+  background-color: var(--main-color);
+}
+
+
+/* LINK BARRA NAVIGAZIONE */
+.nav-link {
+  color: var(--secondary-color) !important;
+}
+
+
+/* SPAZIO LINK BARRA NAVIGAZIONE */
+#spazio{
+  width: 900px;
+}
+
+
+/* ICONA INGRANAGGI BARRA NAVIGAZIONE */
+#ingranaggi{
+  padding-left: 55px;
+  padding-right: 0px;
+}
+
+
+/* DIVISORI BARRA NAVIGAZIONE */
+#barra{
+  font-size: 14px;
+}
+
+
+/* LETTERA PER SPAZIO BARRA NAVIGAZIONE */
+#lettera-invisibile{
+  color: transparent;
+}
+
+
+/* 2° TITOLO */
+#titolo-secondario{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 30px;
+  font-size: 60px;
+  display: flex;
+  font-family: "Electrolize";
+}
+
+
+/* SCRITTE SUPERIORI (PRINCIPALE) */
+#scritte-main{
+  display: flex;
+  align-content: space-around;
+  font-family: "Electrolize";
+}
+
+
+/* TAG SCRITTE */
+#tag{
+  font-size: 90px;
+  font-family: "Lato";
+  font-style: italic;
+  color: var(--main-color);
+}
+
+
+/* SCRITTA SUPERIORE 1 */
+#scritte{
+  width: 440px;
+  padding-left: 65px;
+  line-height: 1.5em;
+}
+
+
+/* SCRITTA SUPERIORE 2 */
+#scrittebis{
+  width: 440px;
+  padding-left: 110px;
+  line-height: 1.5em;
+}
+
+
+/* SCRITTA SUPERIORE 3 */
+#scritteter{
+  width: 440px;
+  padding-left: 110px;
+  line-height: 1.5em;
+}
+
+
+/* SCRITTE SUPERIORI 2 */
+#scritte2-main{
+  display: flex;
+  font-family: "Electrolize";
+  padding-left: 165px;
+  padding-right: 0px;
+}
+
+#scritte2{
+  display: flex;
+  font-family: "Electrolize";
+}
+
+#scritte2-a{
+  padding-left: 320px;
+}
+
+#scritte2-b{
+  padding-left: 140px;
+}
+
+#scritte2-c{
+  padding-left: 140px;
+}
+
+
+/* TITOLO TERZIARIO E SCRITTE SUPERIORI 2 */
+.container-2 {
+  display: flex;              
+  justify-content: space-evenly; 
+  margin: 20px;             
+  text-align: center;       
+}
+
+.container-3 {
+  display: flex;           
+  justify-content: space-evenly; 
+  margin: 20px;           
+  text-align: center;    
+}
+
+.titolo-secondario-2 {
+  width: 30%;             
+  text-transform: uppercase;            
+  font-weight: bold;
+  padding-top: 60px;
+  color: var(--main-color);
+}
+
+.scritte-2 {
+  width: 30%;            
+  padding-top: -20px;    
+}
+
+
+/* SEZIONE "POWER LOREM"  */
+.group{
+  background:linear-gradient(rgba(6, 57, 108, 0.5),rgba(6, 57, 108, 0.5)), url(./media/power-plant.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  padding-left: 72px;
+}
+
+.titolo-power{
+  padding-left: 200px;
+  padding-bottom: 40px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#titolo-power{
+  margin-top: -140px;
+  margin-left: -160px;
+  font-size: 60px;
+  display: flex;
+  position: absolute;
+  font-family: "Electrolize";
+  color: var(--secondary-color);
+  }
+
+.element-one{
+display: flex;
+position: relative;
+margin-top: 120px;
+border: 0px;
+align-content: space-around;
+padding-left: 75px;
+color: none;
+background: transparent;
+background-color: transparent;
+flex-direction: column;
+color: var(--secondary-color);
+}
+
+.element-two{
+display: flex;
+position: relative;
+margin-top: 120px;
+border: 0px;
+align-content: space-around;
+padding-left: 250px;
+color: none;
+background: transparent;
+background-color: transparent;
+flex-direction: column;
+color: var(--secondary-color);
+}
+
+.element-three{
+display: flex;
+position: relative;
+margin-top: 120px;
+border: 0px;
+align-content: space-around;
+padding-left: 250px;
+color: none;
+background: transparent;
+background-color: transparent;
+flex-direction: column;
+color: var(--secondary-color);
+}
+
+.element-four{
+display: flex;
+position: relative;
+margin-top: 120px;
+border: 0px;
+align-content: space-around;
+padding-left: 250px;
+color: none;
+background: transparent;
+background-color: transparent;
+flex-direction: column;
+color: var(--secondary-color);
+}
+
+.icons{
+  display: flex;
+  padding-top: 200px;
+  font-size: 45px;
+  margin-left: -55px;
+}
+
+.title{
+  background: transparent;
+  background-color: transparent;
+  padding-top: 12px;
+  font-size: 45px;
+  margin-left: -55px;
+}
+
+.text-one{
+  display: flex;
+  position: relative;
+  background: none;
+  background-color: none;
+  font-size: 45px;
+  margin-left: -90px;
+}
+
+.text-two{
+  display: flex;
+  position: relative;
+  background: none;
+  background-color: none;
+  font-size: 45px;
+  margin-left: -90px;
+}
+
+.text-three{
+  display: flex;
+  position: relative;
+  background: none;
+  background-color: none;
+  font-size: 45px;
+  margin-left: -90px;
+}
+
+.text-four{
+  display: flex;
+  position: relative;
+  background: none;
+  background-color: none;
+  font-size: 45px;
+  margin-left: -90px;
+}
+
+
+/* SEZIONE GIANT CARDS */
+.carta-giant{
+  position: absolute;
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+  border: 3px solid var(--secondary-color);
+  top: 1785px;
+}
+
+.title-giant{
+  padding-top: 50px;
+  color: var(--secondary-color);
+}
+
+.text-giant{
+  color: var(--secondary-color);
+  
+}
+
